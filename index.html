@@ -10,6 +10,196 @@
     <title>Positivus</title>
 </head>
 <body>
-    
+    <header>
+        <div class="container">
+            <nav class="header-container">
+                <img src="./images/Logo.png" alt="logo" class="logo">
+                <ul class="navbar">
+                    <li class="navbar__item"><a href="#" class="navbarlink">About us</a></li>
+                    <li class="navbar__item"><a href="#" class="navbarlink">Services</a></li>
+                    <li class="navbar__item"><a href="#" class="navbarlink">Use Cases</a></li>
+                    <li class="navbar__item"><a href="#" class="navbarlink">Pricing</a></li>
+                    <li class="navbar__item"><a href="#" class="navbarlink">Blog</a></li>
+                    <li class="navbar__item"><a href="#" class="navbarlink"><button class="btn header-btn">Request a quote</button></a></li>
+                </ul>
+                <button type="button" class="menu-button" data-menu-button aria-expanded="false" aria-controls="menu-container">
+                    <svg width="50" height="50" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" class="icon-menu">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M8 14.6667V12H32V14.6667H8ZM8 21.3333H32V18.6667H8V21.3333ZM8 28H32V25.3333H8V28Z"/>
+                    </svg>
+                    <svg width="50" height="50" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" class="icon-cross">
+                        <path d="M29.6667 12.88L27.7867 11L20.3333 18.4533L12.88 11L11 12.88L18.4533 20.3333L11 27.7867L12.88 29.6667L20.3333 22.2133L27.7867 29.6667L29.6667 27.7867L22.2133 20.3333L29.6667 12.88Z"/>
+                    </svg>
+                </button>
+                <div class="menu-container" id="menu-container" data-menu>
+                    <ul class="navbar-menu">
+                        <li class="navbar__item">About us</li>
+                        <li class="navbar__item">Services</li>
+                        <li class="navbar__item">Use Cases</li>
+                        <li class="navbar__item">Pricing</li>
+                        <li class="navbar__item">Blog</li>
+                        <li class="navbar__item"><button class="btn header-btn">Request a quote</button></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <div class="navigation">
+                <div class="navigation-list">
+                    <h2 class="navigation__text">Navigating the digital landscape for success</h2>
+                    <img src="./images/hero.png" alt="hero" class="hero__img2">
+                    <p class="navigation__discription">Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation.</p>
+                    <button class="btn btn-mobile">Book a consultation</button>
+                </div>
+                <div class="navigation__img">
+                    <img src="./images/hero.png" alt="hero" class="hero__img">
+                </div>
+            </div>
+            <div class="logotypes">
+                <img src="./images/Companylogo1.svg" alt="logo" class="logotypes__img">
+                <img src="./images/Companylogo2.svg" alt="logo" class="logotypes__img">
+                <img src="./images/Companylogo3.svg" alt="logo" class="logotypes__img">
+                <img src="./images/Companylogo4.svg" alt="logo" class="logotypes__img">
+                <img src="./images/Companylogo5.svg" alt="logo" class="logotypes__img">
+                <img src="./images/Companylogo6.svg" alt="logo" class="logotypes__img">
+            </div>
+        </div>
+    </section>
+    <main>
+        <div class="container">
+            <section class="services">
+                <h2 class="section__title">Services</h2>
+                <p class="section__subtitle">At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:</p>
+            </section>
+            <section class="cards">
+                <ul class="cardslist">
+                    <li class="cards__item">
+                        <div class="card__discription">
+                            <div>
+                                <p class="card__title">Search engine</p>
+                                <p class="card__title">optimization</p>
+                            </div>
+                            <div class="learnmore">
+                                <a href="#">
+                                    <svg width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="20.5" cy="20.5" r="20.5" fill="black"/>
+                                        <path d="M11.25 24.701C10.5326 25.1152 10.2867 26.0326 10.701 26.75C11.1152 27.4674 12.0326 27.7133 12.75 27.299L11.25 24.701ZM30.7694 16.3882C30.9838 15.588 30.5089 14.7655 29.7087 14.5511L16.6687 11.0571C15.8685 10.8426 15.046 11.3175 14.8316 12.1177C14.6172 12.9179 15.0921 13.7404 15.8923 13.9548L27.4834 17.0607L24.3776 28.6518C24.1631 29.452 24.638 30.2745 25.4382 30.4889C26.2384 30.7033 27.0609 30.2284 27.2753 29.4282L30.7694 16.3882ZM12.75 27.299L30.0705 17.299L28.5705 14.701L11.25 24.701L12.75 27.299Z" fill='#B9FF66'/>
+                                    </svg>
+                                </a>
+                                <a href="#" class="card__link">Learn more</a>
+                            </div>
+                        </div>
+                        <div class="card__img">
+                            <img src="./images/search1.png" alt="">
+                        </div>
+                    </li>
+                    <li class="cards__item">
+                        <div class="card__discription">
+                            <div>
+                                <p class="card__title">Pay-per-click</p>
+                                <p class="card__title">advertising</p>
+                            </div>
+                            <div class="learnmore">
+                                <a href="#">
+                                    <svg width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="20.5" cy="20.5" r="20.5" fill="black"/>
+                                        <path d="M11.25 24.701C10.5326 25.1152 10.2867 26.0326 10.701 26.75C11.1152 27.4674 12.0326 27.7133 12.75 27.299L11.25 24.701ZM30.7694 16.3882C30.9838 15.588 30.5089 14.7655 29.7087 14.5511L16.6687 11.0571C15.8685 10.8426 15.046 11.3175 14.8316 12.1177C14.6172 12.9179 15.0921 13.7404 15.8923 13.9548L27.4834 17.0607L24.3776 28.6518C24.1631 29.452 24.638 30.2745 25.4382 30.4889C26.2384 30.7033 27.0609 30.2284 27.2753 29.4282L30.7694 16.3882ZM12.75 27.299L30.0705 17.299L28.5705 14.701L11.25 24.701L12.75 27.299Z" fill='#B9FF66'/>
+                                    </svg>
+                                </a>
+                                <a href="#" class="card__link">Learn more</a>
+                            </div>
+                        </div>
+                        <div class="card__img">
+                            <img src="./images/search2.png" alt="">
+                        </div>
+                    </li>
+                    <li class="cards__item">
+                        <div class="card__discription">
+                            <div>
+                                <p class="card__title">Social Media</p>
+                                <p class="card__title">Marketing</p>
+                            </div>
+                            <div class="learnmore">
+                                <a href="#">
+                                    <svg width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="20.5" cy="20.5" r="20.5" fill="white"/>
+                                        <path d="M11.25 24.701C10.5326 25.1152 10.2867 26.0326 10.701 26.75C11.1152 27.4674 12.0326 27.7133 12.75 27.299L11.25 24.701ZM30.7694 16.3882C30.9838 15.588 30.5089 14.7655 29.7087 14.5511L16.6687 11.0571C15.8685 10.8426 15.046 11.3175 14.8316 12.1177C14.6172 12.9179 15.0921 13.7404 15.8923 13.9548L27.4834 17.0607L24.3776 28.6518C24.1631 29.452 24.638 30.2745 25.4382 30.4889C26.2384 30.7033 27.0609 30.2284 27.2753 29.4282L30.7694 16.3882ZM12.75 27.299L30.0705 17.299L28.5705 14.701L11.25 24.701L12.75 27.299Z" fill='black'/>
+                                    </svg>
+                                </a>
+                                <a href="#" class="card__link">Learn more</a>
+                            </div>
+                        </div>
+                        <div class="card__img">
+                            <img src="./images/search3.png" alt="">
+                        </div>
+                    </li>
+                    <li class="cards__item">
+                        <div class="card__discription">
+                            <div>
+                                <p class="card__title">Email</p>
+                                <p class="card__title">Marketing</p>
+                            </div>
+                            <div class="learnmore">
+                                <a href="#">
+                                    <svg width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="20.5" cy="20.5" r="20.5" fill="black"/>
+                                        <path d="M11.25 24.701C10.5326 25.1152 10.2867 26.0326 10.701 26.75C11.1152 27.4674 12.0326 27.7133 12.75 27.299L11.25 24.701ZM30.7694 16.3882C30.9838 15.588 30.5089 14.7655 29.7087 14.5511L16.6687 11.0571C15.8685 10.8426 15.046 11.3175 14.8316 12.1177C14.6172 12.9179 15.0921 13.7404 15.8923 13.9548L27.4834 17.0607L24.3776 28.6518C24.1631 29.452 24.638 30.2745 25.4382 30.4889C26.2384 30.7033 27.0609 30.2284 27.2753 29.4282L30.7694 16.3882ZM12.75 27.299L30.0705 17.299L28.5705 14.701L11.25 24.701L12.75 27.299Z" fill='#B9FF66'/>
+                                    </svg>
+                                </a>
+                                <a href="#" class="card__link">Learn more</a>
+                            </div>
+                        </div>
+                        <div class="card__img">
+                            <img src="./images/search4.png" alt="">
+                        </div>
+                    </li>
+                    <li class="cards__item">
+                        <div class="card__discription">
+                            <div>
+                                <p class="card__title">Content</p>
+                                <p class="card__title">Creation</p>
+                            </div>
+                            <div class="learnmore">
+                                <a href="#">
+                                    <svg width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="20.5" cy="20.5" r="20.5" fill="black"/>
+                                        <path d="M11.25 24.701C10.5326 25.1152 10.2867 26.0326 10.701 26.75C11.1152 27.4674 12.0326 27.7133 12.75 27.299L11.25 24.701ZM30.7694 16.3882C30.9838 15.588 30.5089 14.7655 29.7087 14.5511L16.6687 11.0571C15.8685 10.8426 15.046 11.3175 14.8316 12.1177C14.6172 12.9179 15.0921 13.7404 15.8923 13.9548L27.4834 17.0607L24.3776 28.6518C24.1631 29.452 24.638 30.2745 25.4382 30.4889C26.2384 30.7033 27.0609 30.2284 27.2753 29.4282L30.7694 16.3882ZM12.75 27.299L30.0705 17.299L28.5705 14.701L11.25 24.701L12.75 27.299Z" fill='#B9FF66'/>
+                                    </svg>
+                                </a>
+                                <a href="#" class="card__link">Learn more</a>
+                            </div>
+                        </div>
+                        <div class="card__img">
+                            <img src="./images/search5.png" alt="">
+                        </div>
+                    </li>
+                    <li class="cards__item">
+                        <div class="card__discription">
+                            <div>
+                                <p class="card__title">Analytics and</p>
+                                <p class="card__title">Tracking</p>
+                            </div>
+                            <div class="learnmore">
+                                <a href="#">
+                                    <svg width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="20.5" cy="20.5" r="20.5" fill="white"/>
+                                        <path d="M11.25 24.701C10.5326 25.1152 10.2867 26.0326 10.701 26.75C11.1152 27.4674 12.0326 27.7133 12.75 27.299L11.25 24.701ZM30.7694 16.3882C30.9838 15.588 30.5089 14.7655 29.7087 14.5511L16.6687 11.0571C15.8685 10.8426 15.046 11.3175 14.8316 12.1177C14.6172 12.9179 15.0921 13.7404 15.8923 13.9548L27.4834 17.0607L24.3776 28.6518C24.1631 29.452 24.638 30.2745 25.4382 30.4889C26.2384 30.7033 27.0609 30.2284 27.2753 29.4282L30.7694 16.3882ZM12.75 27.299L30.0705 17.299L28.5705 14.701L11.25 24.701L12.75 27.299Z" fill='black'/>
+                                    </svg>
+                                </a>
+                                <a href="#" class="card__link">Learn more</a>
+                            </div>
+                        </div>
+                        <div class="card__img">
+                            <img src="./images/search6.png" alt="">
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <script src="./js/menu.js"></script>
+
 </body>
 </html>

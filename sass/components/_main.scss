@@ -1,0 +1,33 @@
+main {
+    padding: 70px 0;
+}
+
+.services {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    @media screen and (max-width: 880px) {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+.section__title {
+    background-color: $greenfon;
+    font-family: 'Space Grotesk';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 0 7px;
+    border-radius: 7px;
+}
+
+.section__subtitle {
+    max-width: 580px;
+    font-family: 'Space Grotesk';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
