@@ -48,6 +48,15 @@ ul {
   padding: 20px 35px;
   background: var(--dark, #191A23);
   cursor: pointer;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-transition: 250ms ease;
+  transition: 250ms ease;
+}
+
+.btn:hover {
+  background: var(--dark, #2a2c3b);
 }
 
 header {
@@ -483,5 +492,85 @@ main {
 @media screen and (max-width: 1250px) {
   .card__img img {
     width: 150px;
+  }
+}
+
+.proposal {
+  margin: 100px auto 70px;
+  padding: 24px 0;
+}
+
+.proposal__wrapper {
+  background-color: #F3F3F3;
+  padding: 60px;
+  border-radius: 45px;
+  position: relative;
+}
+@media screen and (max-width: 800px) {
+  .proposal__wrapper {
+    padding: 40px;
+  }
+}
+
+.proposal__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 26px;
+  max-width: 500px;
+}
+@media screen and (max-width: 1150px) {
+  .proposal__content {
+    max-width: 350px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .proposal__content {
+    gap: 20px;
+    margin: 0 auto;
+  }
+}
+
+.proposal__img {
+  position: absolute;
+  right: 135px;
+  top: -23px;
+}
+@media screen and (max-width: 1150px) {
+  .proposal__img {
+    right: 55px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .proposal__img {
+    display: none;
+  }
+}
+
+.proposal__title {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+@media screen and (max-width: 800px) {
+  .proposal__title {
+    font-size: 26px;
+  }
+}
+
+.proposal__subtitle {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media screen and (max-width: 800px) {
+  .proposal__subtitle {
+    font-size: 16px;
   }
 }/*# sourceMappingURL=main.css.map */

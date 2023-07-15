@@ -45,4 +45,10 @@ ul {
     padding: 20px 35px;
     background: var(--dark, #191A23);
     cursor: pointer;
+    width: fit-content;
+    transition: 250ms ease;
+}
+
+.btn:hover {
+    background: var(--dark, #2a2c3b);
 }

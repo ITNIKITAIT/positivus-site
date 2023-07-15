@@ -1,0 +1,60 @@
+.proposal {
+    margin: 100px auto 70px;
+    padding: 24px 0;
+}
+
+.proposal__wrapper {
+    background-color: $grayfon;
+    padding: 60px;
+    border-radius: 45px;
+    position: relative;
+    @media screen and (max-width: 800px) {
+        padding: 40px;
+    }
+}
+
+.proposal__content {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    max-width: 500px;
+    @media screen and (max-width: 1150px) {
+        max-width: 350px;
+    }
+    @media screen and (max-width: 800px) {
+        gap: 20px;
+        margin: 0 auto;
+    }
+}
+
+.proposal__img {
+    position: absolute;
+    right: 135px;
+    top: -23px;
+    @media screen and (max-width: 1150px) {
+        right: 55px;
+    }
+    @media screen and (max-width: 800px) {
+        display: none;
+    }
+}
+
+.proposal__title {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    @media screen and (max-width: 800px) {
+        font-size: 26px;
+    }
+}
+
+.proposal__subtitle {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    @media screen and (max-width: 800px) {
+        font-size: 16px;
+    }
+}
