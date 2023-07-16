@@ -1,0 +1,99 @@
+.team-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.team__item {
+    width: calc((100% - 80px) / 3);
+    padding: 40px 35px;
+    border-radius: 45px;
+    border: 1px solid $blackfon;
+    background: #FFF;
+    box-shadow: 0px 5px 0px 0px $blackfon;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    @media screen and (max-width: 1250px) {
+        width: calc((100% - 40px) / 2);
+    }
+    @media screen and (max-width: 800px) {
+        width: 100%;
+    }
+}
+
+.team__information {
+    position: relative;
+    display: flex;
+    gap: 24px;
+}
+
+.team__information::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: $blackfon;
+    bottom: -28px;
+}
+
+.team__img {
+    display: block;
+}
+
+.team__person {
+    margin-top: auto;
+}
+
+.team__name {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    @media screen and (max-width: 600px) {
+        font-size: 18px;
+    }
+}
+
+.team__profession {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    @media screen and (max-width: 600px) {
+        font-size: 16px;
+    }
+}
+
+.team_discription {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    @media screen and (max-width: 600px) {
+        font-size: 16px;
+    }
+}
+
+.team__icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.team-btn {
+    width: 270px;
+    margin-top: 40px;
+    display: block;
+    margin-left: auto;
+    @media screen and (max-width: 600px) {
+        width: 100%;
+    }
+}
+
+.testimonials-section {
+    margin-top: 100px;
+    @media screen and (max-width: 880px) {
+        margin-top: 60px;
+    }
+}

@@ -91,7 +91,7 @@ header {
 
 .icon-menu:hover,
 .icon-menu:focus {
-  fill: #2196f3;
+  fill: $greenfon
 }
 
 .icon-cross {
@@ -101,7 +101,7 @@ header {
 
 .icon-cross:hover,
 .icon-cross:focus {
-  fill: #2196f3;
+  fill: white;
 }
 
 .menu-button.is-open .icon-cross {

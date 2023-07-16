@@ -1,6 +1,10 @@
 .proposal {
-    margin: 100px auto 70px;
+    margin: 100px auto 0;
     padding: 24px 0;
+    @media screen and (max-width: 800px) {
+        padding: 0;
+        margin: 70px auto 0;
+    }
 }
 
 .proposal__wrapper {
