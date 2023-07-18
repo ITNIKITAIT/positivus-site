@@ -1,5 +1,8 @@
 main {
-    padding: 0 0 70px;
+    padding: 0 0 140px;
+    @media screen and (max-width: 880px) {
+        padding: 0 0 90px;
+    }
 }
 
 .services {

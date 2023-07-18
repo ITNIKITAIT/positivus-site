@@ -1,0 +1,177 @@
+.form-wrapper {
+    padding: 60px 100px 80px;
+    background-color: $grayfon;
+    border-radius: 45px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    @media screen and (max-width: 1200px) {
+        padding: 40px 30px;
+    }
+}
+
+.form {
+    width: 555px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    @media screen and (max-width: 1200px) {
+        max-width: 390px;
+    }
+    @media screen and (max-width: 880px) {
+        margin: 0 auto;
+    }
+}
+
+.radio-buttons {
+    display: flex;
+    gap: 35px;
+}
+
+.radio1,
+.radio2 {
+    display: flex;
+}
+
+.radio-buttons input{
+    display: none;
+}
+
+.label__radio {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    @media screen and (max-width: 676px) {
+        font-size: 16px;
+    }
+}
+
+.circle {
+    position: relative;
+    width: 28px;
+    height: 28px;
+    border-radius: 29px;
+    border: 1px solid #000;
+    margin-right: 14px; 
+    background-color: #fff;
+}
+
+.circle::after {
+    position: absolute;
+    content: '';
+    width: 15px;
+    height: 15px;
+    background-color: $greenfon;
+    border-radius: 29px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+} 
+
+.radio-buttons input:checked +label .circle::after{
+    display: block;
+}
+
+.form__information {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.form__information label {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Space Grotesk';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    @media screen and (max-width: 676px) {
+        font-size: 14px;
+    }
+}
+
+.form__information label input {
+    padding: 18px 30px;
+    border-radius: 14px;
+    border: 1px solid #000;
+    margin-top: 5px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    @media screen and (max-width: 676px) {
+        font-size: 16px;
+    }
+}
+
+.form__information label input::placeholder {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #898989;
+    @media screen and (max-width: 676px) {
+        font-size: 16px;
+    }
+}
+
+.form__information label textarea {
+    padding: 18px 30px;
+    border-radius: 14px;
+    border: 1px solid #000;
+    margin-top: 5px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: 190px;
+    @media screen and (max-width: 676px) {
+        font-size: 16px;
+    }
+}
+
+.form__information label textarea::placeholder {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #898989;
+    @media screen and (max-width: 676px) {
+        font-size: 16px;
+    }
+}
+
+.fullwidth-btn {
+    width: 100%;
+    display: block;
+    @media screen and (max-width: 880px) {
+        display: none;
+    }
+}
+
+.underform-btn {
+    max-width: 450px;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 30px;
+    display: none;
+    @media screen and (max-width: 880px) {
+        display: block;
+    }
+}
+
+.form__img {
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(50%, -50%);
+    right: 0;
+    @media screen and (max-width: 880px) {
+        display: none;
+    }
+}
